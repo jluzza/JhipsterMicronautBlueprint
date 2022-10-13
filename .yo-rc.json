@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.luzza.micronaut.blueprint"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "microservice",
+    "baseName": "blueprint",
+    "packageName": "com.luzza.micronaut.blueprint",
+    "packageFolder": "com/luzza/micronaut/blueprint",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "redis",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mariadb",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "jwtSecretKey": "MTI4NGZmZGZiY2Y0NTA1ZTIyNDAxODczNmQ3ODNjZDhkZTA0YzBiYTQyY2FlODdjZmQzZWM1NmI5YzczNjRmNGYzYjczMjJmMDQxZjQxMmI2OThiZjU5NzRhYjI0OTE1ZTM0ZTNiYmJiNjRjYTI3YjBhYWE5NjNlMWI1ODVlYjQ=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1665675869510,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-micronaut",
+        "version": "1.0.2"
+      }
+    ],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-micronaut",
+        "version": "1.0.2"
+      }
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

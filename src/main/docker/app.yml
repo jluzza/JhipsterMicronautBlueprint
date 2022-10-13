@@ -1,0 +1,14 @@
+version: '2'
+services:
+  blueprint-app:
+    image: blueprint
+    environment:
+      - _JAVA_OPTIONS=-Xmx512m -Xms256m
+      - MICRONAUT_ENVIRONMENTS=prod
+      - JDBC_URL=jdbc:mariadb://blueprint-mariadb:3306/blueprint?useLegacyDatetimeCode=false&serverTimezone=UTC
+      - JDBC_PASSWORD=password
+      - JHIPSTER_SLEEP=120 # gives time for mariadb server to start
+  blueprint-mariadb:
+    extends:
+      file: mariadb.yml
+      service: blueprint-mariadb

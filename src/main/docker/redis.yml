@@ -1,0 +1,6 @@
+version: '2'
+services:
+  blueprint-redis:
+    image: redis:6.0.10
+    ports:
+      - '6379:6379'
